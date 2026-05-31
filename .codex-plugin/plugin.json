@@ -1,0 +1,33 @@
+{
+  "name": "ai-saas-builder-lite",
+  "version": "0.1.0",
+  "description": "AI organization plugin that turns SaaS and app ideas into initial product design documents.",
+  "author": {
+    "name": "AI SaaS Builder Lite contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "saas",
+    "startup",
+    "product-spec",
+    "codex",
+    "ai-agents"
+  ],
+  "interface": {
+    "displayName": "AI SaaS Builder Lite",
+    "shortDescription": "アイデアをSaaS設計書に変えるAIチーム",
+    "longDescription": "Research Agent、Developer Agent、Orchestrator Agentが、SaaSやアプリのアイデアから市場課題整理、MVP要件、技術選定、開発タスク、最終統合レポートを作成します。",
+    "developerName": "AI SaaS Builder Lite",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Planning"
+    ],
+    "defaultPrompt": [
+      "このSaaSアイデアを初期設計書にしてください。",
+      "Research、MVP要件、開発タスクを作成してください。",
+      "AI SaaS Builder Liteとして企画を整理してください。"
+    ],
+    "brandColor": "#2563EB"
+  }
+}
