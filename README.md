@@ -42,6 +42,8 @@ AI SaaS Builder Liteは、SaaS/アプリのアイデアを初期設計書に変�
 bash
 ```
 git clone https://github.com/chukainin-K/ai-saas-builder-lite.git
+```
+```
 cd ai-saas-builder-lite
 ```
 3. リポジトリのルートディレクトリで以下を実行してください。
@@ -54,7 +56,8 @@ codex
 
 ## Codex CLIでの使用例
 
-```text
+test
+```
 `AI SaaS Builder Liteとして、以下のアイデアをSaaS設計書にしてください。
 
 参照:
