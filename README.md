@@ -37,17 +37,25 @@ AI SaaS Builder Liteは、SaaS/アプリのアイデアを初期設計書に変�
 
 ## 使い方
 
-1. このリポジトリをCodex CLIで開きます。`git clone https://github.com/chukainin-K/ai-saas-builder-lite.git`
-2. 下の使用例のように、作りたいSaaS/アプリのアイデアを入力します。
-3. Codexに`AGENTS.md`と`workflows/saas-builder-lite.md`に従って進めるよう依頼します。
-4. `outputs/<idea-name>/`などの作業用ディレクトリにMarkdown成果物を作成します。
+1. ターミナルを開き、以下を実行してください。
 
-成果物の出力先を指定しない場合は、Codexに分かりやすい名前のディレクトリを作らせるのがおすすめです。
+bash
+```
+git clone https://github.com/chukainin-K/ai-saas-builder-lite.git
+cd ai-saas-builder-lite
+```
+3. リポジトリのルートディレクトリで以下を実行してください。
+
+bash
+```
+codex
+```
+
 
 ## Codex CLIでの使用例
 
 ```text
-AI SaaS Builder Liteとして、以下のアイデアをSaaS設計書にしてください。
+`AI SaaS Builder Liteとして、以下のアイデアをSaaS設計書にしてください。
 
 参照:
 - AGENTS.md
@@ -60,7 +68,7 @@ AI SaaS Builder Liteとして、以下のアイデアをSaaS設計書にして�
 - outputs/pet-health-app/research-report.md
 - outputs/pet-health-app/product-spec.md
 - outputs/pet-health-app/development-tasks.md
-- outputs/pet-health-app/final-report.md
+- outputs/pet-health-app/final-report.md`
 ```
 
 ## サンプル入力
